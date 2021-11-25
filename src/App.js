@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import "./style.css";
@@ -12,7 +10,14 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-			<Card />
+			<Card
+				img="katie-zaferes.png"
+				rating="5.0"
+				reviewCount="6"
+				country="Afghanistan"
+				title="Life Lessons with Katie Zaferes"
+				price="136"
+			/>
 		</div>
 	);
 }
