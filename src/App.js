@@ -5,7 +5,7 @@ import Card from "./components/Card";
 import data from "./data";
 
 function App() {
-	const cards = data.map((item) => <Card key={item.id} item={item} />);
+	const cards = data.map((item) => <Card key={item.id} {...item} />);
 	{
 		/* <Hero /> */
 	}
